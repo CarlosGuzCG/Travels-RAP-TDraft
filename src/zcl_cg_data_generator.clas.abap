@@ -12,7 +12,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_cg_data_generator IMPLEMENTATION.
+CLASS ZCL_CG_DATA_GENERATOR IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -113,5 +114,4 @@ CLASS zcl_cg_data_generator IMPLEMENTATION.
      out->write( |----> zbksuppl_cg_a | ).
 
   ENDMETHOD.
-
 ENDCLASS.
